@@ -1,0 +1,41 @@
+# Kids Camp Play School
+
+> A modern, responsive, and highly interactive landing page for Kids Camp Play School, Dombivli. Established in 2000, nurturing young minds through child-first, play-based learning.
+
+## Key Information
+- **Location**: Dombivli, Maharashtra, India.
+- **Founder & CEO**: Mrs. Namrata Anil Patel (ECCE, Child Psychology, Certified Parenting Coach, NLP Practitioner).
+- **Core Philosophy**: Child-first learning, blending play with education in a safe, nurturing space.
+- **Experience**: 25+ years of excellence, 2000+ happy learners.
+
+## Programs Offered
+- **Play Group** (Ages 2 – 3 Years): Introduction to structured play, social interaction, stories, and songs.
+- **Nursery** (Ages 3 – 4 Years): Language development, motor skills, and creative expression.
+- **Junior KG** (Ages 4 – 5 Years): Pre-reading, pre-math, and scientific curiosity via hands-on projects.
+- **Senior KG** (Ages 5 – 6 Years): Advanced literacy, numeracy, and school readiness.
+- **Day Care** (Ages 2 – 10 Years): Safe environment, nutritious meals, rest time, and engaging activities.
+- **Activity Club** (Ages 3 – 12 Years): After-school art, music, dance, and sports.
+
+## Daily Schedule
+- **8:00 AM**: Morning Welcome & transition.
+- **9:00 AM**: Circle Time (songs, sharing).
+- **10:00 AM**: Creative Exploration (art, science).
+- **11:00 AM**: Snack Break (nutritious meals, manners).
+- **11:30 AM**: Outdoor Play (sunshine, physical play).
+- **12:30 PM**: Storytelling (interactive tales, reading).
+- **1:00 PM**: Goodbye Smiles & departure.
+
+## Spaces
+- **Vibrant Classrooms**: Age-appropriate learning zones.
+- **Adventure Play Areas**: Indoor/outdoor safe play setups.
+- **Creative Activity Rooms**: Art studios and music corners.
+- **Discovery Learning Zones**: STEM corners & sensory stations.
+- **Cozy Daycare Spaces**: Nap areas and dining.
+- **Safety First Systems**: CCTV, child-proofed areas, first-aid.
+
+## Technical Details
+- **Architecture**: Single-page application, static site.
+- **Frontend Stack**: Semantic HTML5, Vanilla CSS3 (custom CSS variables, grid, flexbox, custom keyframes), Vanilla JavaScript (interactive confetti, scroll reveals, responsive navigation).
+- **Hosting**: GitHub Pages (served from `/` on the `main` branch).
+- **Entrypoint**: `index.html`.
+- **Assets**: Google Fonts (`Outfit`, `Plus Jakarta Sans`), dynamic images loaded from Unsplash.
