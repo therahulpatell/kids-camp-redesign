@@ -7,21 +7,21 @@
     <meta name="description" content="Kids Camp Play School — 25+ years of joyful learning in Dombivli. A magical place where children discover, create, and grow through play-based adventures.">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/webp" href="logo.webp">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://therahulpatell.github.io/kids-camp-redesign/">
     <meta property="og:title" content="Kids Camp — Where Curiosity Comes To Play">
     <meta property="og:description" content="Kids Camp Play School — 25+ years of joyful learning in Dombivli. A magical place where children discover, create, and grow through play-based adventures.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1200&h=630&fit=crop&q=80">
+    <meta property="og:image" content="https://therahulpatell.github.io/kids-camp-redesign/logo.webp">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://therahulpatell.github.io/kids-camp-redesign/">
     <meta property="twitter:title" content="Kids Camp — Where Curiosity Comes To Play">
     <meta property="twitter:description" content="Kids Camp Play School — 25+ years of joyful learning in Dombivli. A magical place where children discover, create, and grow through play-based adventures.">
-    <meta property="twitter:image" content="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1200&h=630&fit=crop&q=80">
+    <meta property="twitter:image" content="https://therahulpatell.github.io/kids-camp-redesign/logo.webp">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -153,6 +153,13 @@
             width: 48px; height: 48px; background: var(--primary); border-radius: var(--radius-sm);
             display: flex; align-items: center; justify-content: center;
             color: white; font-size: 1.5rem; animation: wiggle 3s ease-in-out infinite;
+        }
+        .logo-img {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+            border-radius: var(--radius-sm);
+            animation: wiggle 3s ease-in-out infinite;
         }
         .nav-links { display: flex; gap: 2.5rem; align-items: center; }
         .nav-link {
@@ -496,7 +503,7 @@
     <nav class="nav" id="nav">
         <div class="nav-inner">
             <a href="#" class="logo">
-                <div class="logo-icon">&#9733;</div>
+                <img src="logo.webp" alt="Kids Camp Logo" class="logo-img">
                 <span>Kids Camp</span>
             </a>
             <div class="nav-links">
@@ -1089,7 +1096,7 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <div class="logo">
-                        <div class="logo-icon">&#9733;</div>
+                        <img src="logo.webp" alt="Kids Camp Logo" class="logo-img">
                         <span>Kids Camp</span>
                     </div>
                     <p>A place where curiosity comes to play. Nurturing young minds through creativity, confidence, and joyful learning since 2000.</p>
