@@ -199,13 +199,13 @@
         .nav-link:hover { color: var(--primary); }
         .nav-link:hover::after { width: 100%; }
         .nav-cta {
-            background: var(--text); color: white; padding: 0.75rem 1.5rem;
-            border-radius: 100px; font-weight: 700; font-size: 0.9rem;
-            transition: var(--transition); box-shadow: 0 4px 16px rgba(30,41,59,0.3);
+            background: var(--primary); color: var(--text); padding: 0.75rem 1.5rem;
+            border-radius: 100px; font-weight: 800; font-size: 0.9rem;
+            transition: var(--transition); box-shadow: 0 4px 16px rgba(0,174,237,0.3);
         }
         .nav-cta:hover {
             transform: translateY(-2px) scale(1.05);
-            box-shadow: 0 8px 24px rgba(30,41,59,0.4); background: black;
+            box-shadow: 0 8px 24px rgba(0,174,237,0.4); background: var(--primary-dark); color: white;
         }
         .mobile-menu-btn { display: none; flex-direction: column; gap: 5px; padding: 8px; }
         .mobile-menu-btn span { display: block; width: 24px; height: 3px; background: var(--text); border-radius: 2px; transition: var(--transition); }
@@ -241,12 +241,12 @@
         .hero-desc { font-size: 1.15rem; color: var(--text-light); max-width: 520px; margin-bottom: 2.5rem; line-height: 1.7; }
         .hero-ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
         .btn-primary {
-            background: var(--text); color: white; padding: 1rem 2rem; border-radius: 100px;
-            font-weight: 700; font-size: 1rem; font-family: 'Outfit', sans-serif;
-            transition: var(--transition); box-shadow: 0 8px 24px rgba(30,41,59,0.35);
+            background: var(--primary); color: var(--text); padding: 1rem 2rem; border-radius: 100px;
+            font-weight: 800; font-size: 1rem; font-family: 'Outfit', sans-serif;
+            transition: var(--transition); box-shadow: 0 8px 24px rgba(0,174,237,0.35);
             display: inline-flex; align-items: center; gap: 0.5rem;
         }
-        .btn-primary:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 12px 32px rgba(30,41,59,0.45); background: black; }
+        .btn-primary:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 12px 32px rgba(0,174,237,0.45); background: var(--primary-dark); color: white; }
         .btn-secondary {
             background: white; color: var(--text); padding: 1rem 2rem; border-radius: 100px;
             font-weight: 700; font-size: 1rem; font-family: 'Outfit', sans-serif;
@@ -273,13 +273,13 @@
         .sticker-3 { background: var(--tertiary); color: var(--text); bottom: 5%; right: 10%; transform: rotate(4deg); animation-delay: 2s; }
 
         .marquee-section {
-            background: var(--text); padding: 1.25rem 0; overflow: hidden;
+            background: var(--primary); padding: 1.25rem 0; overflow: hidden;
             position: relative; transform: rotate(-1deg); margin: -1rem 0; z-index: 10;
         }
         .marquee-track { display: flex; width: max-content; animation: marquee 30s linear infinite; }
         .marquee-item {
             display: flex; align-items: center; gap: 1rem; padding: 0 2rem;
-            color: white; font-family: 'Outfit', sans-serif; font-weight: 700;
+            color: var(--text); font-family: 'Outfit', sans-serif; font-weight: 800;
             font-size: 1.1rem; white-space: nowrap;
         }
         .marquee-dot { width: 8px; height: 8px; background: var(--tertiary); border-radius: 50%; flex-shrink: 0; }
@@ -449,7 +449,7 @@
         .contact-card { display: flex; align-items: flex-start; gap: 1rem; background: white; padding: 1.25rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); transition: var(--transition); }
         .contact-card:hover { transform: translateX(8px); box-shadow: var(--shadow-md); }
         .contact-icon { width: 48px; height: 48px; border-radius: var(--radius-sm); background: rgba(0,174,237,0.1); display: flex; align-items: center; justify-content: center; font-size: 1.25rem; flex-shrink: 0; }
-        .contact-card h4 { font-size: 1rem; margin-bottom: 0.25rem; }
+        .contact-card h3 { font-size: 1rem; margin-bottom: 0.25rem; }
         .contact-card p { color: var(--text-light); font-size: 0.9rem; }
         .contact-map { background: white; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); height: 100%; min-height: 400px; }
         .contact-map iframe { width: 100%; height: 100%; border: none; min-height: 400px; }
@@ -463,7 +463,7 @@
         .footer-brand .logo { color: white; margin-bottom: 1rem; }
         .footer-brand .logo-icon { background: var(--primary); }
         .footer-brand p { color: rgba(255,255,255,0.7); line-height: 1.7; font-size: 0.95rem; }
-        .footer-col h4 { font-family: 'Outfit', sans-serif; font-size: 1.1rem; margin-bottom: 1.25rem; color: white; }
+        .footer-col h2 { font-family: 'Outfit', sans-serif; font-size: 1.1rem; margin-bottom: 1.25rem; color: white; }
         .footer-col a { display: block; color: rgba(255,255,255,0.7); margin-bottom: 0.75rem; font-size: 0.9rem; transition: var(--transition); }
         .footer-col a:hover { color: var(--tertiary); transform: translateX(4px); }
         .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
