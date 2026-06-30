@@ -23,6 +23,31 @@
     <meta property="twitter:description" content="Kids Camp Play School — 25+ years of joyful learning in Dombivli. A magical place where children discover, create, and grow through play-based adventures.">
     <meta property="twitter:image" content="https://therahulpatell.github.io/kids-camp-redesign/logo.webp">
 
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Preschool",
+      "name": "Kids Camp Play School",
+      "image": "https://therahulpatell.github.io/kids-camp-redesign/logo.webp",
+      "url": "https://therahulpatell.github.io/kids-camp-redesign/",
+      "telephone": "+919876543210",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Near Ganesh Mandir",
+        "addressLocality": "Dombivli East",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      },
+      "description": "Kids Camp Play School — 25+ years of joyful learning in Dombivli. A magical place where children discover, create, and grow through play-based adventures.",
+      "sameAs": [
+        "https://www.facebook.com/",
+        "https://www.instagram.com/",
+        "https://www.youtube.com/"
+      ]
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -174,13 +199,13 @@
         .nav-link:hover { color: var(--primary); }
         .nav-link:hover::after { width: 100%; }
         .nav-cta {
-            background: var(--primary); color: white; padding: 0.75rem 1.5rem;
+            background: var(--text); color: white; padding: 0.75rem 1.5rem;
             border-radius: 100px; font-weight: 700; font-size: 0.9rem;
-            transition: var(--transition); box-shadow: 0 4px 16px rgba(0,174,237,0.3);
+            transition: var(--transition); box-shadow: 0 4px 16px rgba(30,41,59,0.3);
         }
         .nav-cta:hover {
             transform: translateY(-2px) scale(1.05);
-            box-shadow: 0 8px 24px rgba(0,174,237,0.4); background: var(--primary-dark);
+            box-shadow: 0 8px 24px rgba(30,41,59,0.4); background: black;
         }
         .mobile-menu-btn { display: none; flex-direction: column; gap: 5px; padding: 8px; }
         .mobile-menu-btn span { display: block; width: 24px; height: 3px; background: var(--text); border-radius: 2px; transition: var(--transition); }
@@ -202,11 +227,11 @@
         .hero-content { animation: slide-up 1s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
         .hero-badge {
             display: inline-flex; align-items: center; gap: 0.5rem;
-            background: rgba(0,174,237,0.1); color: var(--primary);
+            background: rgba(0,174,237,0.1); color: #005a7d;
             padding: 0.5rem 1rem; border-radius: 100px; font-weight: 700; font-size: 0.85rem;
             margin-bottom: 1.5rem; animation: bounce-in 0.8s 0.2s both;
         }
-        .hero-badge .star { color: var(--tertiary); animation: pulse-soft 2s ease-in-out infinite; }
+        .hero-badge .star { color: #d97706; animation: pulse-soft 2s ease-in-out infinite; }
         .hero-title { font-size: clamp(2.8rem, 5.5vw, 5rem); font-weight: 900; color: var(--text); margin-bottom: 1.5rem; line-height: 1.05; }
         .hero-title .highlight { color: var(--primary); position: relative; display: inline-block; }
         .hero-title .highlight::after {
@@ -216,12 +241,12 @@
         .hero-desc { font-size: 1.15rem; color: var(--text-light); max-width: 520px; margin-bottom: 2.5rem; line-height: 1.7; }
         .hero-ctas { display: flex; gap: 1rem; flex-wrap: wrap; }
         .btn-primary {
-            background: var(--primary); color: white; padding: 1rem 2rem; border-radius: 100px;
+            background: var(--text); color: white; padding: 1rem 2rem; border-radius: 100px;
             font-weight: 700; font-size: 1rem; font-family: 'Outfit', sans-serif;
-            transition: var(--transition); box-shadow: 0 8px 24px rgba(0,174,237,0.35);
+            transition: var(--transition); box-shadow: 0 8px 24px rgba(30,41,59,0.35);
             display: inline-flex; align-items: center; gap: 0.5rem;
         }
-        .btn-primary:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 12px 32px rgba(0,174,237,0.45); background: var(--primary-dark); }
+        .btn-primary:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 12px 32px rgba(30,41,59,0.45); background: black; }
         .btn-secondary {
             background: white; color: var(--text); padding: 1rem 2rem; border-radius: 100px;
             font-weight: 700; font-size: 1rem; font-family: 'Outfit', sans-serif;
@@ -243,12 +268,12 @@
             border-radius: var(--radius-md); font-weight: 700; font-size: 0.85rem;
             box-shadow: var(--shadow-md); animation: float 4s ease-in-out infinite;
         }
-        .sticker-1 { background: var(--secondary); color: white; top: 10%; right: -20px; transform: rotate(8deg); }
-        .sticker-2 { background: var(--quaternary); color: white; bottom: 20%; left: -30px; transform: rotate(-6deg); animation-delay: 1s; }
+        .sticker-1 { background: var(--secondary); color: var(--text); top: 10%; right: -20px; transform: rotate(8deg); }
+        .sticker-2 { background: var(--quaternary); color: var(--text); bottom: 20%; left: -30px; transform: rotate(-6deg); animation-delay: 1s; }
         .sticker-3 { background: var(--tertiary); color: var(--text); bottom: 5%; right: 10%; transform: rotate(4deg); animation-delay: 2s; }
 
         .marquee-section {
-            background: var(--primary); padding: 1.25rem 0; overflow: hidden;
+            background: var(--text); padding: 1.25rem 0; overflow: hidden;
             position: relative; transform: rotate(-1deg); margin: -1rem 0; z-index: 10;
         }
         .marquee-track { display: flex; width: max-content; animation: marquee 30s linear infinite; }
@@ -263,7 +288,7 @@
         .section-inner { max-width: 1200px; margin: 0 auto; }
         .section-header { text-align: center; margin-bottom: 4rem; }
         .section-label {
-            display: inline-block; background: rgba(0,174,237,0.1); color: var(--primary);
+            display: inline-block; background: rgba(0,174,237,0.1); color: #005a7d;
             padding: 0.4rem 1rem; border-radius: 100px; font-weight: 700; font-size: 0.8rem;
             text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem;
         }
